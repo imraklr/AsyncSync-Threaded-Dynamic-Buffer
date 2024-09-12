@@ -19,8 +19,8 @@ Navigate to the output directory and run the .exe file.
 ./src/target/output/main.exe
 ```
 
-## Linux Distro Specific Instructions (:construction:)
+## Linux Distro Specific Instructions (🚧)
 
-### Compilation (:construction:)
+### Compilation (🚧)
 
-### Usage (:construction:)
+### Usage (🚧)
