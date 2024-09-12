@@ -2,41 +2,25 @@
 
 This is a dynamic buffer designed to focus on creating a self-learning, self-resizable and efficient buffer for different type of operations like **File I/O**, **I/O**, **Socket Messages**, etc.
 
-## Specific Instructions to Compile for Microsoft Windows
+## Specific Instructions to Compile on Microsoft Windows 10 and above
 
 ### Compilation
 
-Start The **x86 Native Tools Command Prompt for VS 2022** and type in the following:
-
-```ps1
-cl /EHsc *.cpp
-```
-
-OR use **g++ (GCC)** to compile with version **23** (Please note that I have compiled this on **g++ (GCC) version 12.4.0**):
-
-```ps1
-g++ -std=c++23 *.cpp
-```
+Run the script file [Compile-Source.ps1](Compile-Source.ps1) in PowerShell. The output will be created in `src\target\output` directory from the root directory.
 
 > [!TIP]
-> **Optimization flags can be used to compile the code in both the cases, i.e., when compiling in MSVC environment or when compiling with g++. Several test cases will run to show you the time taken by the process to complete set of tasks.**
+> **Optimization flags can be employed when compiling with g++. Several test cases will run to show you the time taken by the process to complete set of tasks.**
 
 ### Usage
 
-Use the following command to run the executable from the root folder (When compiled using **x86 Native Tools Command Prompt for VS 2022**):
+Navigate to the output directory and run the .exe file.
 
 ```ps1
-main.exe
+./src/target/output/main.exe
 ```
 
-OR when compiled using g++ in PowerShell, run:
+## Linux Distro Specific Instructions (:construction:)
 
-```ps1
-./a.exe
-```
+### Compilation (:construction:)
 
-## Linux Distro Specific Instructions
-
-### Compilation
-
-### Usage
+### Usage (:construction:)
