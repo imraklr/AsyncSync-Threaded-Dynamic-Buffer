@@ -1,0 +1,1 @@
+g++ -std=c++23 src/source/*.cpp -o src/target/output/main
